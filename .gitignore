@@ -1,0 +1,9 @@
+.project
+.classpath
+*.udg
+www/
+docs/
+lib/
+*.log
+
+

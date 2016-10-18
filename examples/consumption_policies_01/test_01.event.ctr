@@ -1,0 +1,35 @@
+trClause(
+    unlabeled,
+    event(b,[_G1513,_G1516]),
+    seqf(
+        etr_dbf(
+            unlabeled,
+            goal(
+                event(b),
+                event(a,[_G1534,_G1537]),
+                event(c)
+            )
+        ),
+        seqf(
+            less(_G1537,_G1513),
+            seqf(
+                check_event_rule_conditions(unlabeled,c,[_G1534,_G1516]),
+                event(c,[_G1534,_G1516])
+            )
+        )
+    )
+).
+
+trClause(
+    unlabeled,
+    event(a,[_G1480,_G1483]),
+    etr_insf(
+        unlabeled,
+        goal(
+            event(b),
+            event(a,[_G1480,_G1483]),
+            event(c)
+        )
+    )
+).
+
